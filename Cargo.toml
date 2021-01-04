@@ -1,0 +1,11 @@
+[package]
+name = "lightbulb"
+version = "0.1.0"
+authors = ["Jay Kruer <j@dank.systems>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+gpio = "0.4.1"
